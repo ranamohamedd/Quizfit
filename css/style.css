@@ -1,0 +1,94 @@
+
+:root{
+    --main-font:'Kalam', cursive ;
+    --main-color:#E75480;
+}
+
+#home{
+    background-image: url(../imgs/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#home .container .cover h1{
+    font-size: 7rem;
+    font-family: var(--main-font);
+}
+
+#home .container .cover p{
+    font-size: 2rem;
+}
+
+
+.overlay-bg{
+    background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 30%;
+        
+
+}
+
+#quiz{
+    background-image: url(../imgs/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#quiz .container .title h2{
+    font-size: 5rem;
+    margin-bottom: 0.7rem;
+    font-family: var(--main-font);
+    color:var(--main-color);
+    border-bottom: 1px solid #333;
+}
+
+#quiz .container .quiz h3{
+    font-size: 2.5rem;
+}
+
+button.answer{
+    font-size: 2rem;
+    width: 95%;
+    height: 4rem;
+    border: 1px solid #333;
+    border-radius: 2rem;
+    text-align: start;
+    transition: all 0.5s;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+}
+button.answer:hover:not([disabled]){
+    background-color: var(--main-color);
+    color: white;
+    
+}
+.next-btn{
+    background-color: var(--main-color);
+    color: white;
+    font-size: 2rem;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: none;
+    display: none;
+
+    
+    
+}
+
+.correct{
+    background-color: aquamarine;
+}
+.incorrect{
+    background-color: lightcoral;
+}
+
